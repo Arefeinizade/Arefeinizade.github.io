@@ -1,0 +1,30 @@
+/* About research atlas — embedded in the right side of the About section */
+.about-section .about-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);gap:clamp(24px,2.8vw,48px);align-items:start}
+.about-section .about-grid>*{min-width:0}
+.about-atlas{position:relative;isolation:isolate;width:100%;min-width:0;box-sizing:border-box;overflow:visible;background:transparent;color:#24343a;border:0;border-radius:0;box-shadow:none;margin-top:-10px}
+.about-atlas-head{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:6px 6px 8px}
+.about-atlas-overline{font-size:10px;letter-spacing:.13em;font-weight:800;color:#405961;white-space:nowrap}
+.about-atlas-live{display:inline-block;background:#67d6a5;width:7px;height:7px;border-radius:50%;margin-right:5px;box-shadow:0 0 8px #67d6a5}
+.about-atlas-head a{font-size:11px;color:#237b91;text-decoration:none;text-align:right}
+.about-atlas-head a:hover{text-decoration:underline;color:#123941}
+.about-atlas-network{position:relative;min-width:0;width:100%;height:clamp(330px,36vw,430px);touch-action:pan-y;background:transparent}
+.about-atlas-network svg{display:block;width:100%;height:100%;overflow:visible;user-select:none}
+.about-atlas-network .atlas-edge{stroke:#8aa0aa;stroke-width:1;stroke-opacity:.3;pointer-events:none}
+.about-atlas-network .atlas-topic{cursor:grab;outline:none}
+.about-atlas-network .atlas-topic:focus-visible .atlas-node-circle,.about-atlas-network .atlas-paper:focus-visible{stroke:#304958;stroke-width:2.5}
+.about-atlas-network .atlas-topic text{font-size:11px;fill:#24343a;font-weight:690;pointer-events:none;text-anchor:middle;paint-order:stroke;stroke:#f7f8f7;stroke-width:3px;stroke-linejoin:round}
+.about-atlas-network .atlas-paper{cursor:pointer;outline:none;stroke:#ffffff;stroke-width:1.1}
+.about-atlas-network .atlas-topic:hover .atlas-node-circle,.about-atlas-network .atlas-paper:hover{filter:brightness(1.08)}
+.about-atlas-tooltip{position:absolute;z-index:5;pointer-events:none;left:10px;bottom:10px;max-width:min(85%,300px);padding:9px 11px;border-radius:10px;background:#fff;border:1px solid #d7e4e8;font-size:11px;line-height:1.5;color:#24343a;box-shadow:0 8px 22px rgba(36,52,58,.12)}
+.about-atlas-footer{padding:2px 4px 0!important;margin:0!important;text-align:left;color:#667d85!important;font-size:10px!important;line-height:1.45}
+.about-atlas-network .atlas-paper,.about-atlas-network .atlas-topic{touch-action:none}
+.about-atlas-network .atlas-topic:active,.about-atlas-network .atlas-paper:active{cursor:grabbing}
+.about-atlas-network .atlas-node-circle{stroke:#fff;stroke-width:1.5;filter:drop-shadow(0 2px 5px rgba(54,81,92,.15))}
+@media(max-width:900px){.about-section .about-grid{grid-template-columns:1fr;gap:22px}.about-atlas{margin-top:0}.about-atlas-network{height:390px}.about-atlas-head{padding:4px 2px 6px}.about-atlas-footer{text-align:center;padding-top:6px!important}}
+@media(max-width:520px){.about-atlas-network{height:330px}.about-atlas-head a{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.about-atlas *{animation:none!important;transition:none!important}}
+
+/* Paper tooltip: title and venue on separate lines, without truncation. */
+.about-atlas-tooltip{max-width:min(96%,430px);white-space:normal;overflow-wrap:anywhere;padding:12px 14px;font-size:12px}
+.about-atlas-tooltip .atlas-tooltip-title{font-weight:750;line-height:1.45;margin-bottom:6px;color:#24343a}
+.about-atlas-tooltip .atlas-tooltip-venue{font-size:11px;line-height:1.5;color:#506a74}
