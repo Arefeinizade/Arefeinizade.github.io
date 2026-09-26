@@ -423,16 +423,18 @@ window.SITE_DATA = {
   news: [
     {
       date: "Sep 2026",
+      title: "1 paper accepted at NeurIPS 2026",
+      text: "A Sparse Low-Rank Biclique Decomposition for Graphs.",
+      // link: "https://eusipco2026.org/"
+    },
+    
+    {
+      date: "Sep 2026",
       title: "1 paper accepted and presented orally at EUSIPCO 2026",
       text: "Spatiotemporal graph learning for interpretable seizure onset zone analysis from intracranial EEG was presented at the 34th European Signal Processing Conference in Bruges.",
       link: "https://eusipco2026.org/"
     },
-    {
-      date: "Jun 2026",
-      title: "Delivered talk at LoG Paris Meetup 2026",
-      text: "Title: Tensorial Partial Differential Equations on Graphs",
-      link: "https://sites.google.com/view/learning-on-graph-paris-meetup/schedule"
-    },
+    
     {
       date: "Jul 2026",
       title: "1 paper accepted at ICML 2026",
@@ -444,6 +446,12 @@ window.SITE_DATA = {
       title: "1 paper accepted at IJCNN / WCCI 2026",
       text: "Consistent Soundscape Connectomes via Stability-Refined Graph Learning was presented at IJCNN 2026.",
       link: "https://scholar.google.com/scholar?oi=bibs&cluster=8977716731314936627&btnI=1&hl=en"
+    },
+    {
+      date: "Jun 2026",
+      title: "Delivered talk at LoG Paris Meetup 2026",
+      text: "Title: Tensorial Partial Differential Equations on Graphs",
+      link: "https://sites.google.com/view/learning-on-graph-paris-meetup/schedule"
     },
     {
       date: "May 2026",
