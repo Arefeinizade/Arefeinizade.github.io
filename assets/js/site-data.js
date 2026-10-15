@@ -425,7 +425,7 @@ window.SITE_DATA = {
       date: "Sep 2026",
       title: "1 paper accepted at NeurIPS 2026",
       text: "A Sparse Low-Rank Biclique Decomposition for Graphs.",
-      // link: "https://eusipco2026.org/"
+      link: "https://mm.telecom-paris.fr/news/2026-09-25/"
     },
     
     {
