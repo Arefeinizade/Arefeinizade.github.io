@@ -139,6 +139,15 @@ window.SITE_DATA = {
   publications: [
     {
       year: 2026,
+      type: "conference",
+      title: "A Sparse Low-Rank Biclique Decomposition for Graphs",
+      authors: "Antoine Vialle, Sergei Gerasimov, Aref Einizade, Antonio Ortega, Fragkiskos D Malliaros, Jhony H Giraldo",
+      venue: "The Forty Annual Conference on Neural Information Processing Systems (NeurIPS 2026)",
+      image: "assets/images/paper/conf/Spatiotemporal Imputation with Graph-Informed Flow Matching.png",
+      links: { NeurIPS: "https://neurips.cc/virtual/2026/loc/sydney/poster/152969", arxiv: "https://arxiv.org/abs/2611.25826", code: "https://github.com/IAntoineV/sbd" }
+    },
+    {
+      year: 2026,
       type: "journal",
       title: "WiGNeXt: Windowed Vision Graph Neural Network with eXtended Locality",
       authors: "Gabriele Spadaro, Kian Bakhtari, Aref Einizade, Marco Grangetto, Attilio Fiandrotti, Enzo Tartaglione, Jhony H. Giraldo",
