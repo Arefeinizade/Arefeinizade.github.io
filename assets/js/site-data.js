@@ -77,13 +77,13 @@ window.SITE_DATA = {
       image: "assets/images/person_logo.png",
       link: ""
     },
-    {
-      name: "Sergei Gerasimov",
-      role: "PhD student · Télécom Paris, Nov 2026–present",
-      topic: "Graph Summarization",
-      image: "assets/images/person_logo.png",
-      link: ""
-    },
+    // {
+    //   name: "Sergei Gerasimov",
+    //   role: "PhD student · Télécom Paris, Nov 2026–present",
+    //   topic: "Graph Summarization",
+    //   image: "assets/images/person_logo.png",
+    //   link: ""
+    // },
     {
       name: "Deniz Rezapour Kiani",
       role: "PhD student · Télécom SudParis, Nov 2026–present",
