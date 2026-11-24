@@ -139,12 +139,12 @@ window.SITE_DATA = {
   publications: [
     {
       year: 2026,
-      type: "preprint",
+      type: "journal",
       title: "WiGNeXt: Windowed Vision Graph Neural Network with eXtended Locality",
       authors: "Gabriele Spadaro, Kian Bakhtari, Aref Einizade, Marco Grangetto, Attilio Fiandrotti, Enzo Tartaglione, Jhony H. Giraldo",
-      venue: "Available at SSRN 7291685",
+      venue: "Image and Vision Computing",
       image: "assets/images/paper/preprint/WiGNeXt.png",
-      links: { ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7291685" }
+      links: {doi: "https://doi.org/10.1016/j.imavis.2026.106274" }
     },
     {
       year: 2026,
