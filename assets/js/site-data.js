@@ -431,6 +431,12 @@ window.SITE_DATA = {
 
   news: [
     {
+      date: "Nov 2026",
+      title: "1 paper accepted at Image and Vision Computing Journal",
+      text: "WiGNeXt: Windowed Vision Graph Neural Network with eXtended Locality.",
+      link: "https://doi.org/10.1016/j.imavis.2026.106274"
+    },
+    {
       date: "Sep 2026",
       title: "1 paper accepted at NeurIPS 2026",
       text: "A Sparse Low-Rank Biclique Decomposition for Graphs.",
